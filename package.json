@@ -1,0 +1,28 @@
+{
+  "name": "pg-parse-float",
+  "version": "0.0.1",
+  "description": "restore parseFloat behavior to node-postgres (pg) - can be used as a reference for implementing other type parsing addons",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brianc/node-pg-parse-float"
+  },
+  "keywords": [
+    "postgres",
+    "float",
+    "parsing",
+    "type",
+    "conversion"
+  ],
+  "author": "Brian M. Carlson",
+  "license": "MIT",
+  "devDependencies": {
+    "async": "~0.2.7",
+    "okay": "~0.2.0",
+    "pg": "~1.0.0",
+    "mocha": "~1.9.0"
+  }
+}
