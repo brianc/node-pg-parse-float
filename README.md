@@ -18,10 +18,12 @@ require('pg-parse-float')(pg);
 
 ## notes
 
+This can be used as an example of how to extend or override the built in type parsers for other types as well.
+
 There were some discussions around this:
 
-https://github.com/brianc/node-postgres/pull/301
-https://github.com/brianc/node-postgres/pull/271
+- https://github.com/brianc/node-postgres/pull/301
+- https://github.com/brianc/node-postgres/pull/271
 
 
 ## license
